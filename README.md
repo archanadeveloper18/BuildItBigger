@@ -145,24 +145,54 @@ To tie it all together, create a Gradle task that:
 2. Runs all tests
 3. Shuts the server down again
 
-# Rubric
+### Meets Specifications
+Congratulations, you did a great job, fixed the reported issues from the previous review, now it is all good :clap: :clap:
+
+Happy learning and good luck with the rest of the projects :smiley: :udacious:
+
+### Common Project Requirements
+App is written solely in the Java Programming Language
+
+App utilizes stable release versions of all libraries, Gradle, and Android Studio.
 
 ### Required Components
+Project contains a Java library for supplying jokes.
 
-* Project contains a Java library for supplying jokes
-* Project contains an Android library with an activity that displays jokes passed to it as intent extras.
-* Project contains a Google Cloud Endpoints module that supplies jokes from the Java library. Project loads jokes from GCE module via an async task.
-* Project contains connected tests to verify that the async task is indeed loading jokes.
-* Project contains paid/free flavors. The paid flavor has no ads, and no unnecessary dependencies.
+Perfect, it is having a Java library that provides the jokes :thumbsup:
+
+Project contains an Android library with an activity that displays jokes passed to it as intent extras.
+
+You built an android library providing an Activity to display those jokes.
+
+Project contains a Google Cloud Endpoints module that supplies jokes from the Java library. Project loads jokes from GCE module via an AsyncTask.
+
+It contains a GCE module that serves the jokes and your app is getting those via the AsyncTask :thumbsup:
+
+Project contains connected tests to verify that the AsyncTask is indeed loading jokes.
+
+Your project has a test to check the AsyncTask successfully gets the jokes from the GCE server.
+
+Project contains paid/free flavors. The paid flavor has no ads and no unnecessary dependencies.
+
+Ads are required in the free version.
+
+Good job, it has the two required flavors paid and free.
+Ads are displayed only on the free flavor, the ads dependencies and resources are included only in this flavor :thumbsup:
 
 ### Required Behavior
+App retrieves jokes from Google Cloud Endpoints module and displays them via an Activity from the Android Library. Note that the GCE module need only be deployed locally.
 
-* App retrieves jokes from Google Cloud Endpoints module and displays them via an Activity from the Android Library.
+It is correctly fetching the jokes from the GCE endpoint and displaying these in the Activity from the android library.
 
-### Optional Components
+App conforms to common standards found in the Android Nanodegree General Project Guidelines.
 
-Once you have a functioning project, consider adding more features to test your Gradle and Android skills. Here are a few suggestions:
+Your app is running smoothly and meets all the Project Guidelines.
 
-* Make the free app variant display interstitial ads between the main activity and the joke-displaying activity.
-* Have the app display a loading indicator while the joke is being fetched from the server.
-* Write a Gradle task that starts the GCE dev server, runs all the Android tests, and shuts down the dev server.
+<img width="734" alt="screen-shot-2017-10-31-at-3 54 32-pm" src="https://user-images.githubusercontent.com/45606322/55989920-ad44dd80-5c63-11e9-86fc-6ec2fa940e22.png">
+
+![FreeVersion](https://user-images.githubusercontent.com/45606322/55989937-b5048200-5c63-11e9-87ef-98c874e6fb5f.png)
+
+![PaidVersion](https://user-images.githubusercontent.com/45606322/55989950-bafa6300-5c63-11e9-80bb-e7d8a3f6f419.png)
+
+
+
