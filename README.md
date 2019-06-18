@@ -145,54 +145,36 @@ To tie it all together, create a Gradle task that:
 2. Runs all tests
 3. Shuts the server down again
 
-### Meets Specifications
-Congratulations, you did a great job, fixed the reported issues from the previous review, now it is all good :clap: :clap:
-
-Happy learning and good luck with the rest of the projects :smiley: :udacious:
-
-### Common Project Requirements
-App is written solely in the Java Programming Language
-
-App utilizes stable release versions of all libraries, Gradle, and Android Studio.
-
-### Required Components
-Project contains a Java library for supplying jokes.
-
-Perfect, it is having a Java library that provides the jokes :thumbsup:
-
-Project contains an Android library with an activity that displays jokes passed to it as intent extras.
-
-You built an android library providing an Activity to display those jokes.
-
-Project contains a Google Cloud Endpoints module that supplies jokes from the Java library. Project loads jokes from GCE module via an AsyncTask.
-
-It contains a GCE module that serves the jokes and your app is getting those via the AsyncTask :thumbsup:
-
-Project contains connected tests to verify that the AsyncTask is indeed loading jokes.
-
-Your project has a test to check the AsyncTask successfully gets the jokes from the GCE server.
-
-Project contains paid/free flavors. The paid flavor has no ads and no unnecessary dependencies.
-
-Ads are required in the free version.
-
-Good job, it has the two required flavors paid and free.
-Ads are displayed only on the free flavor, the ads dependencies and resources are included only in this flavor :thumbsup:
-
-### Required Behavior
-App retrieves jokes from Google Cloud Endpoints module and displays them via an Activity from the Android Library. Note that the GCE module need only be deployed locally.
-
-It is correctly fetching the jokes from the GCE endpoint and displaying these in the Activity from the android library.
-
-App conforms to common standards found in the Android Nanodegree General Project Guidelines.
-
-Your app is running smoothly and meets all the Project Guidelines.
 
 <img width="734" alt="screen-shot-2017-10-31-at-3 54 32-pm" src="https://user-images.githubusercontent.com/45606322/55989920-ad44dd80-5c63-11e9-86fc-6ec2fa940e22.png">
 
 ![FreeVersion](https://user-images.githubusercontent.com/45606322/55989937-b5048200-5c63-11e9-87ef-98c874e6fb5f.png)
 
 ![PaidVersion](https://user-images.githubusercontent.com/45606322/55989950-bafa6300-5c63-11e9-80bb-e7d8a3f6f419.png)
+
+# License
+
+MIT License
+
+Copyright (c) [year] [fullname]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 
 
